@@ -1,0 +1,358 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="49902ce0-8434-4fea-8f10-941ebc97fb89" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Groups Dwh</ID>
+  <Name>Groups Dwh</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6314" scrolltop="504" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="22772" y="12047" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Courses" left="475" top="0" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3651" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000430e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Courses" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Groups_Facts" left="475" top="6051" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4357" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000005110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Groups_Facts" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Rooms" left="5875" top="7286" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1887" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00005f070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Rooms" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Teachers" left="0" top="12808" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3951" height="3651" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00006f0f0000430e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Teachers" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1576" top="3152" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Groups_Courses]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1975" y="3651" />
+                    <point x="1975" y="6051" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3175" top="7830" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Classes_Roooms]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="12" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5875" y="8229" />
+                    <point x="3475" y="8229" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1576" top="10108" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Groups_Teachers]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1975" y="12808" />
+                    <point x="1975" y="10408" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-6314</DiagramViewPortLeft>
+            <DiagramViewPortTop>504</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Groups Dwh</DataSourceID>
+  <Schema>
+    <xs:schema id="Groups_x0020_Dwh" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Groups_x0020_Dwh" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9d1d9b16-291b-4a63-9287-d53191d89dd2">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Courses" msprop:design-time-name="b32d66f9-d5f7-4157-8efb-181fb87e8f26" msprop:FriendlyName="Courses" msprop:DbSchemaName="dbo" msprop:DbTableName="Courses" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CourseID" msprop:design-time-name="90ae2000-4012-4400-b8eb-2631bfae3aee" msprop:DbColumnName="CourseID" msprop:FriendlyName="CourseID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CourseName" msprop:design-time-name="46f98fe5-5346-4528-bcc0-cb3dfc517a11" msprop:DbColumnName="CourseName" msprop:FriendlyName="CourseName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CourseYear" msprop:design-time-name="85609e64-e50e-4452-b544-2f40e406bf30" msprop:DbColumnName="CourseYear" msprop:FriendlyName="CourseYear" type="xs:int" />
+                  <xs:element name="CourseSem" msprop:design-time-name="8b1abaf4-0b1d-416e-bc86-804b23bd1b89" msprop:DbColumnName="CourseSem" msprop:FriendlyName="CourseSem" type="xs:int" />
+                  <xs:element name="isElective" msprop:design-time-name="bea28d4c-8399-4cf7-b788-9db116e0706a" msprop:DbColumnName="isElective" msprop:FriendlyName="isElective" type="xs:boolean" />
+                  <xs:element name="MinStudents" msprop:design-time-name="242fad9c-48be-425a-b134-614c7f05bb16" msprop:DbColumnName="MinStudents" msprop:FriendlyName="MinStudents" type="xs:int" />
+                  <xs:element name="MaxStudents" msprop:design-time-name="13737ee3-0361-42b5-9cc4-b915f854c4a9" msprop:DbColumnName="MaxStudents" msprop:FriendlyName="MaxStudents" type="xs:int" minOccurs="0" />
+                  <xs:element name="CourseType" msprop:design-time-name="6e00cefa-b202-40ca-8f57-3de5e32626e7" msprop:DbColumnName="CourseType" msprop:FriendlyName="CourseType">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Groups_Facts" msprop:design-time-name="3d4035cf-47cf-4b42-817a-e7941332a6be" msprop:FriendlyName="Groups_Facts" msprop:DbSchemaName="dbo" msprop:DbTableName="Groups_Facts" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="GroupID" msprop:design-time-name="41a06d92-3e1a-43ab-b4b9-a5526a628e38" msprop:DbColumnName="GroupID" msprop:FriendlyName="GroupID" type="xs:int" />
+                  <xs:element name="CourseID" msprop:design-time-name="b61ef4c8-48e3-462a-80a8-abda8da20e31" msprop:DbColumnName="CourseID" msprop:FriendlyName="CourseID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="EmployeeID" msprop:design-time-name="14bb3011-3c11-4623-8373-288762480841" msprop:DbColumnName="EmployeeID" msprop:FriendlyName="EmployeeID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GroupNumber" msprop:design-time-name="98bcb9fd-572b-444b-9499-7c5540dc0eca" msprop:DbColumnName="GroupNumber" msprop:FriendlyName="GroupNumber" type="xs:int" />
+                  <xs:element name="DepartmentID" msprop:design-time-name="b4b33fff-55c1-460a-b349-0c12973b44cf" msprop:DbColumnName="DepartmentID" msprop:FriendlyName="DepartmentID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="RoomID" msprop:design-time-name="08690b47-aeb9-4624-bbec-f3ef13e0d373" msprop:DbColumnName="RoomID" msprop:FriendlyName="RoomID" type="xs:int" />
+                  <xs:element name="ClassDay" msprop:design-time-name="faf9c07b-7984-47ef-8450-b880dd1d7744" msprop:DbColumnName="ClassDay" msprop:FriendlyName="ClassDay">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TimeFrom" msprop:design-time-name="b81950db-4681-46f9-b00e-885f0d019689" msprop:DbColumnName="TimeFrom" msprop:FriendlyName="TimeFrom" type="xs:anyType" />
+                  <xs:element name="TimeTo" msprop:design-time-name="507d40f0-b99d-4cfd-91ed-22c05c4116eb" msprop:DbColumnName="TimeTo" msprop:FriendlyName="TimeTo" type="xs:anyType" />
+                  <xs:element name="TotalHours" msprop:design-time-name="62d00e6b-fbc7-40d8-bf26-e3f585899de6" msprop:DbColumnName="TotalHours" msprop:FriendlyName="TotalHours" type="xs:decimal" />
+                  <xs:element name="RoomName" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CONVERT(VARCHAR(10),RoomID)+'_'+CONVERT(VARCHAR(10),DepartmentID)" msprop:IsLogical="True" msprop:design-time-name="0eada3eb-50d1-4df1-86fb-a42d74ceb39a" msprop:DbColumnName="RoomName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="21" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Rooms" msprop:design-time-name="c4d2527a-8d63-4179-b0d1-1d4368a4ca01" msprop:FriendlyName="Rooms" msprop:DbSchemaName="dbo" msprop:DbTableName="Rooms" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RoomID" msprop:design-time-name="29cd0f9e-6dfe-48f8-98e7-3adee406785c" msprop:DbColumnName="RoomID" msprop:FriendlyName="RoomID" type="xs:int" />
+                  <xs:element name="DepartmentID" msprop:design-time-name="69543aae-f396-4088-b399-2646bcf8f3e5" msprop:DbColumnName="DepartmentID" msprop:FriendlyName="DepartmentID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="RoomType" msprop:design-time-name="7403b26a-54c8-4770-8d21-fca9a8c533d4" msprop:DbColumnName="RoomType" msprop:FriendlyName="RoomType">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="RoomName" msdata:ReadOnly="true" msprop:design-time-name="9594bbf9-037a-4362-9d38-55e5669fb912" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="RoomName" msprop:ComputedColumnExpression="CONVERT(VARCHAR(10),RoomID)+'_'+CONVERT(VARCHAR(10),DepartmentID)" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="21" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Teachers" msprop:design-time-name="a082036b-1eaa-4f81-8a0a-7e1277acc108" msprop:FriendlyName="Teachers" msprop:DbSchemaName="dbo" msprop:DbTableName="Teachers" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TeacherID" msprop:design-time-name="a8800bf1-9bf7-45b4-8cd5-4fc95ccc5d62" msprop:DbColumnName="TeacherID" msprop:FriendlyName="TeacherID" type="xs:int" />
+                  <xs:element name="EmployeeID" msprop:design-time-name="95e10bbe-a374-4572-9673-7007516ffbd1" msprop:DbColumnName="EmployeeID" msprop:FriendlyName="EmployeeID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TeacherRole" msprop:design-time-name="d84a8211-941e-476c-9edd-91ebae5f7381" msprop:DbColumnName="TeacherRole" msprop:FriendlyName="TeacherRole" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DepartmentID" msprop:design-time-name="7ffdf041-280d-4c4d-8cdf-ab525e9a3e82" msprop:DbColumnName="DepartmentID" msprop:FriendlyName="DepartmentID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TeacherName" msprop:design-time-name="179dd8a5-110b-4907-8431-ef04cafa7065" msprop:DbColumnName="TeacherName" msprop:FriendlyName="TeacherName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TeacherAddress" msprop:design-time-name="b8725a0f-9d04-44a7-86f3-caff85cd6d7a" msprop:DbColumnName="TeacherAddress" msprop:FriendlyName="TeacherAddress">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TeacherEmail" msprop:design-time-name="5468f7ee-d49d-4b4c-bc45-e7aaf241b078" msprop:DbColumnName="TeacherEmail" msprop:FriendlyName="TeacherEmail">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TeacherPhoneNumber" msprop:design-time-name="2275c916-4714-49d2-b17a-df89225351c0" msprop:DbColumnName="TeacherPhoneNumber" msprop:FriendlyName="TeacherPhoneNumber">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Courses" />
+          <xs:field xpath="CourseID" />
+        </xs:unique>
+        <xs:unique name="dbo_Groups_Facts_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Groups_Facts" />
+          <xs:field xpath="GroupID" />
+        </xs:unique>
+        <xs:unique name="dbo_Rooms_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Rooms" />
+          <xs:field xpath="RoomID" />
+          <xs:field xpath="DepartmentID" />
+        </xs:unique>
+        <xs:unique name="dbo_Teachers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Teachers" />
+          <xs:field xpath="EmployeeID" />
+        </xs:unique>
+        <xs:keyref name="FK_Groups_Courses" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Groups_Facts" />
+          <xs:field xpath="CourseID" />
+        </xs:keyref>
+        <xs:keyref name="FK_Classes_Roooms" refer="dbo_Rooms_Constraint1">
+          <xs:selector xpath=".//dbo_Groups_Facts" />
+          <xs:field xpath="RoomID" />
+          <xs:field xpath="DepartmentID" />
+        </xs:keyref>
+        <xs:keyref name="FK_Groups_Teachers" refer="dbo_Teachers_Constraint1">
+          <xs:selector xpath=".//dbo_Groups_Facts" />
+          <xs:field xpath="EmployeeID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Groups_x0020_Dwh xmlns="" />
+  </Schema>
+</DataSourceView>
